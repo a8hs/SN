@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>천일야화: 술탄의 밤</title>
+<style>
+* { box-sizing: border-box; }
+::-webkit-scrollbar { height: 6px; width: 6px; }
+::-webkit-scrollbar-track { background: rgba(0,0,0,0.3); }
+::-webkit-scrollbar-thumb { background: #d4af37; border-radius: 3px; }
+</style>
+</head>
+<body style="margin:0; padding:0; background:#020b18; font-family:'Georgia', serif; color:#fff; overflow-x:hidden;">
+
+<div style="max-width:700px; margin:0 auto; position:relative; background:#020b18; box-shadow:0 0 50px rgba(0,0,0,0.9);">
+
+<!-- [BACKGROUND STARFIELD LAYER] -->
+<div style="position:fixed; top:0; left:0; width:100%; height:100%; z-index:0; pointer-events:none; background:radial-gradient(circle at 50% 20%, #0d2340 0%, #020b18 80%);">
+<div style="position:absolute; width:100%; height:100%; background-image:radial-gradient(#d4af37, rgba(212,175,55,0.2) 2px, transparent 40px), radial-gradient(#fff, rgba(255,255,255,0.15) 1px, transparent 30px), radial-gradient(#fff, rgba(255,255,255,0.1) 2px, transparent 40px); background-size:550px 550px, 350px 350px, 250px 250px; background-position:0 0, 40px 60px, 130px 270px; opacity:0.6;"></div>
+</div>
+
+<div style="position:relative; z-index:1;">
+
+<!-- [1. BRIEF SUMMARY & CARDS] -->
+<div style="padding:80px 20px 60px; text-align:center;">
+<div style="color:#d4af37; font-size:0.9em; letter-spacing:4px; margin-bottom:10px;">DARK REGAL ARABIC FANTASY</div>
+<h1 style="font-family:'Georgia', serif; font-weight:900; color:#d4af37; font-size:clamp(2.5em, 9vw, 3.8em); margin:0; line-height:1.1; text-shadow:0 0 25px rgba(212,175,55,0.6), 2px 2px 4px rgba(0,0,0,0.9); letter-spacing:-1px;">
+천일야화:<br><span style="color:#fff; text-shadow:0 0 20px rgba(255,255,255,0.4);">술탄의 밤</span>
+</h1>
+
+<div style="margin:25px auto; width:60px; height:2px; background:linear-gradient(90deg, transparent, #d4af37, transparent);"></div>
+
+<p style="color:#e0d0a0; font-size:1.15em; font-weight:bold; margin-top:0; letter-spacing:1px; text-shadow:1px 1px 3px #000; line-height:1.6;">
+황금 모래 제국의 운명이 당신의 손에 달렸다.<br>
+<span style="font-size:0.9em; color:#aaa; font-weight:normal;">폭군이 될 것인가? 이야기꾼이 될 것인가?</span>
+</p>
+
+<!-- CARDS CONTAINER -->
+<div style="display:flex; flex-direction:column; gap:25px; align-items:center; margin-top:40px;">
+
+<!-- SULTAN CARD -->
+<div style="position:relative; width:100%; aspect-ratio:16/9; background:url('https://riru.ai/m/3OGI1r/AN/SU_1.webp') center/cover; border-radius:12px; overflow:hidden; border:1px solid #d4af37; box-shadow:0 10px 30px rgba(0,0,0,0.8);">
+<div style="position:absolute; inset:0; background:linear-gradient(0deg, rgba(0,0,0,0.95) 0%, rgba(2,11,24,0.4) 60%, rgba(0,0,0,0.2) 100%);"></div>
+<div style="position:absolute; bottom:0; width:100%; padding:20px; box-sizing:border-box; text-align:left;">
+<span style="background:#d4af37; color:#000; padding:3px 12px; border-radius:20px; font-size:0.75em; font-weight:bold; letter-spacing:1px;">SULTAN</span>
+<p style="margin:8px 0 4px; font-size:1.25em; font-weight:900; color:#fff; text-shadow:1px 1px 3px #000;">"누가 나를 즐겁게 할 것이냐"</p>
+<p style="margin:0; font-size:0.85em; color:#ccc; line-height:1.4;">온 사막이 당신의 발 아래에 있습니다. 마음에 드는 자를 취하고, 마음에 안 드는 자는 숙청하며, 하고 싶은 모든 것을 이루십시오.</p>
+</div>
+</div>
+
+<!-- STORYTELLER CARD -->
+<div style="position:relative; width:100%; aspect-ratio:16/9; background:url('https://riru.ai/m/3OGI1r/AN/RA_1.webp') center/cover; border-radius:12px; overflow:hidden; border:1px solid #87CEEB; box-shadow:0 10px 30px rgba(0,0,0,0.8);">
+<div style="position:absolute; inset:0; background:linear-gradient(0deg, rgba(0,0,0,0.95) 0%, rgba(2,11,24,0.4) 60%, rgba(0,0,0,0.2) 100%);"></div>
+<div style="position:absolute; bottom:0; width:100%; padding:20px; box-sizing:border-box; text-align:left;">
+<span style="background:#87CEEB; color:#000; padding:3px 12px; border-radius:20px; font-size:0.75em; font-weight:bold; letter-spacing:1px;">STORYTELLER</span>
+<p style="margin:8px 0 4px; font-size:1.25em; font-weight:900; color:#fff; text-shadow:1px 1px 3px #000;">"이야기를 들려드리겠습니다."</p>
+<p style="margin:0; font-size:0.85em; color:#ccc; line-height:1.4;">당신은 폭군 술탄의 부름을 받아 그의 이야기판에 참여하게 되었습니다. 술탄을 매료시켜 생존하세요. 혹은, 다른 방법으로라도.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- [2. WORLDVIEW SECTION] -->
+<div style="position:relative; padding:90px 25px; background:url('https://riru.ai/m/3OGI1r/Toy/PRX_0.webp') center/cover; background-attachment:fixed;">
+<div style="position:absolute; inset:0; background:rgba(5, 12, 22, 0.82); border-top:1px solid rgba(212,175,55,0.4); border-bottom:1px solid rgba(212,175,55,0.4);"></div>
+<div style="position:relative; z-index:1; text-align:center;">
+<h2 style="color:#d4af37; font-size:1.8em; margin-top:0; margin-bottom:25px; letter-spacing:3px; text-shadow:2px 2px 4px #000;">세계관</h2>
+<div style="font-size:1em; line-height:2; color:#e0e0e0; text-align:justify; text-shadow:1px 1px 3px #000;">
+황금같은 사막 위에 세워진 황금의 궁전, 그 주인인 술탄은 권태와 불면증에 빠져 나날이 광폭해지고 있습니다.<br>
+그는 무료함을 해소하기 위해, 궁정인과 노예, 떠돌이를 불러모아 <span style="color:#d4af37; font-weight:bold; border-bottom:1px solid #d4af37;">'이야기판'</span>을 열었습니다. 매일 밤 반복되는 이야기판에서는 피와 눈물이 흐릅니다.<br><br>
+이 이야기 속에서 당신은 폭군 술탄이 되거나, 이야기꾼이 될 수 있습니다. 어느 쪽을 택하든, 당신을 기다리는 건 폭정으로 망가진 나라와, 술탄을 두려워하고 증오하며 그의 발에 입맞추는 이야기꾼들입니다.
+</div>
+</div>
+</div>
+
+<!-- [GRADIENT TRANSITION TO LIGHT GOLD/YELLOW SECTION] -->
+<div style="background:linear-gradient(180deg, #020b18 0%, #3a2d10 40%, #e6ca65 100%); padding:60px 0 20px; color:#fff;">
+
+<!-- [3. CHARACTER INTRO SECTION] -->
+<div style="padding:0 0 40px;">
+<h2 style="text-align:center; font-size:2em; color:#fff; text-shadow:0 0 10px rgba(0,0,0,0.8); margin-bottom:40px; letter-spacing:2px;">등장인물</h2>
+
+<!-- 1. 지배자 -->
+<div style="margin-bottom:50px;">
+<div style="text-align:center; margin-bottom:15px;">
+<span style="background:rgba(0,0,0,0.6); color:#f5d77f; padding:4px 16px; border-radius:20px; font-size:1em; font-weight:bold; border:1px solid #d4af37;">[ 지배자 ]</span>
+</div>
+<div style="display:flex; overflow-x:auto; padding:10px 20px 20px; gap:18px; scroll-snap-type:x mandatory;">
+<!-- 살라-딘 -->
+<div style="flex:0 0 260px; scroll-snap-align:start; background:rgba(10,15,25,0.85); border:1px solid #d4af37; border-radius:12px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.5);">
+<img src="https://riru.ai/m/3OGI1r/AN/SU_1.webp" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;">
+<div style="padding:15px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+<span style="font-size:1.2em; font-weight:bold; color:#d4af37;">살라-딘</span>
+<span style="background:#8b0000; color:#fff; font-size:0.7em; padding:2px 8px; border-radius:10px;">술탄</span>
+</div>
+<p style="font-size:0.8em; line-height:1.5; color:#ddd; margin:0 0 8px;">• 사막을 비탄에 빠트린 술탄.</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ddd; margin:0 0 8px;">• 불면증과 광기에 시달리는 잔혹한 통치자</p>
+<p style="font-size:0.75em; line-height:1.4; color:#ff8888; margin:0;">*술탄으로 시작시 살라-딘은 등장하지 않습니다.</p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- 2. 실리주의자 -->
+<div style="margin-bottom:50px;">
+<div style="text-align:center; margin-bottom:15px;">
+<span style="background:rgba(0,0,0,0.6); color:#f5d77f; padding:4px 16px; border-radius:20px; font-size:1em; font-weight:bold; border:1px solid #d4af37;">[ 실리주의자 ]</span>
+<p style="font-size:0.8em; color:#ffd400; margin:6px 0 0; font-weight:bold;"> <br> "권력, 금전, 생존<br>눈앞의 명확한 이득을 좇는 야심가들"</p>
+</div>
+<div style="display:flex; overflow-x:auto; padding:10px 20px 20px; gap:18px; scroll-snap-type:x mandatory;">
+<!-- 타리크 -->
+<div style="flex:0 0 260px; scroll-snap-align:start; background:rgba(10,15,25,0.85); border:1px solid #b89726; border-radius:12px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.5);">
+<img src="https://riru.ai/m/3OGI1r/AN/TA_1.webp" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;">
+<div style="padding:15px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+<span style="font-size:1.2em; font-weight:bold; color:#d4af37;">타리크</span>
+<span style="background:#d4af37; color:#000; font-size:0.7em; padding:2px 8px; border-radius:10px; font-weight:bold;">에미르(귀족)</span>
+</div>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 잘생긴 젊은 영주</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 태양처럼 타오르는 권력욕</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 8px;">• 누구보다 술탄에게 알랑거리는 인물</p>
+<p style="font-size:0.75em; color:#aaa; margin:0; border-top:1px solid rgba(255,255,255,0.1); padding-top:6px;">📖 이야기: 협잡질, 모함, 지방 이야기</p>
+</div>
+</div>
+<!-- 카심 -->
+<div style="flex:0 0 260px; scroll-snap-align:start; background:rgba(10,15,25,0.85); border:1px solid #b89726; border-radius:12px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.5);">
+<img src="https://riru.ai/m/3OGI1r/AN/KA_1.webp" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;">
+<div style="padding:15px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+<span style="font-size:1.2em; font-weight:bold; color:#d4af37;">카심</span>
+<span style="background:#d4af37; color:#000; font-size:0.7em; padding:2px 8px; border-radius:10px; font-weight:bold;">타지르(상인)</span>
+</div>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 실크로드를 오가는 대상단주</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 야망으로 입궁했으나 술탄을 보고 즉시 후회</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 8px;">• 이야기판 탈출을 궁리하는 금전 만능주의자</p>
+<p style="font-size:0.75em; color:#aaa; margin:0; border-top:1px solid rgba(255,255,255,0.1); padding-top:6px;">📖 이야기: 실크로드 이교도, 신기한 외국 상품</p>
+</div>
+</div>
+<!-- 사미르 -->
+<div style="flex:0 0 260px; scroll-snap-align:start; background:rgba(10,15,25,0.85); border:1px solid #b89726; border-radius:12px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.5);">
+<img src="https://riru.ai/m/3OGI1r/AN/SA_1.webp" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;">
+<div style="padding:15px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+<span style="font-size:1.2em; font-weight:bold; color:#d4af37;">사미르</span>
+<span style="background:#d4af37; color:#000; font-size:0.7em; padding:2px 8px; border-radius:10px; font-weight:bold;">모험가</span>
+</div>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 카심의 첫째 아들, 대상단의 후계자</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 언변, 사교성, 검술을 갖춘 가족사랑꾼</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 8px;">• 술탄이 가족에게 마수를 드리우면 나타남</p>
+<p style="font-size:0.75em; color:#aaa; margin:0; border-top:1px solid rgba(255,255,255,0.1); padding-top:6px;">📖 이야기: 사막 모험담, 보물, 마수와 괴물</p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- 3. 보수주의자 -->
+<div style="margin-bottom:50px;">
+<div style="text-align:center; margin-bottom:15px;">
+<span style="background:rgba(0,0,0,0.6); color:#aaccff; padding:4px 16px; border-radius:20px; font-size:1em; font-weight:bold; border:1px solid #6699cc;">[ 보수주의자 ]</span>
+<p style="font-size:0.8em; color:#2196F3; margin:6px 0 0; font-weight:bold;"> <br> "도덕, 율법, 제국의 질서<br>무너져가는 가치를 간신히 떠받치는 중신들"</p>
+</div>
+<div style="display:flex; overflow-x:auto; padding:10px 20px 20px; gap:18px; scroll-snap-type:x mandatory;">
+<!-- 소라야 -->
+<div style="flex:0 0 260px; scroll-snap-align:start; background:rgba(10,15,25,0.85); border:1px solid #5577aa; border-radius:12px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.5);">
+<img src="https://riru.ai/m/3OGI1r/AN/SO_1.webp" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;">
+<div style="padding:15px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+<span style="font-size:1.2em; font-weight:bold; color:#87CEEB;">소라야</span>
+<span style="background:#5577aa; color:#fff; font-size:0.7em; padding:2px 8px; border-radius:10px;">공주</span>
+</div>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 술탄의 사촌누이, 어질고 지혜로움</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 독설을 일삼으나 술탄이 관대하게 대함</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 8px;">• 술탄을 멈출 수 없다는 무력감을 안고 있음</p>
+<p style="font-size:0.75em; color:#aaa; margin:0; border-top:1px solid rgba(255,255,255,0.1); padding-top:6px;">📖 이야기: 왕실 이야기, 과거의 추억, 독설</p>
+</div>
+</div>
+<!-- 야히야 -->
+<div style="flex:0 0 260px; scroll-snap-align:start; background:rgba(10,15,25,0.85); border:1px solid #5577aa; border-radius:12px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.5);">
+<img src="https://riru.ai/m/3OGI1r/AN/YA_1.webp" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;">
+<div style="padding:15px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+<span style="font-size:1.2em; font-weight:bold; color:#87CEEB;">야히야</span>
+<span style="background:#5577aa; color:#fff; font-size:0.7em; padding:2px 8px; border-radius:10px;">위자라(재상)</span>
+</div>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 몰락해가는 제국을 떠받치는 대재상</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 피곤에 찌든 차가운 행정가</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 8px;">• 술탄조차 함부로 대하지 못함. 아직은</p>
+<p style="font-size:0.75em; color:#aaa; margin:0; border-top:1px solid rgba(255,255,255,0.1); padding-top:6px;">📖 이야기: 몰락하는 제국의 실상, 쓴소리</p>
+</div>
+</div>
+<!-- 누만 -->
+<div style="flex:0 0 260px; scroll-snap-align:start; background:rgba(10,15,25,0.85); border:1px solid #5577aa; border-radius:12px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.5);">
+<img src="https://riru.ai/m/3OGI1r/AN/UL_1.webp" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;">
+<div style="padding:15px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+<span style="font-size:1.2em; font-weight:bold; color:#87CEEB;">누만</span>
+<span style="background:#5577aa; color:#fff; font-size:0.7em; padding:2px 8px; border-radius:10px;">울라마(학자)</span>
+</div>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 존경받는 前 율법재판관, 현 대학자</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 신실하고 고결한 도덕주의자</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 8px;">• 고결함을 간직하려 몸부림침</p>
+<p style="font-size:0.75em; color:#aaa; margin:0; border-top:1px solid rgba(255,255,255,0.1); padding-top:6px;">📖 이야기: 도덕적 교훈, 종교 말씀</p>
+</div>
+</div>
+<!-- 마티아스 -->
+<div style="flex:0 0 260px; scroll-snap-align:start; background:rgba(10,15,25,0.85); border:1px solid #5577aa; border-radius:12px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.5);">
+<img src="https://riru.ai/m/3OGI1r/AN/MA_1.webp" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;">
+<div style="padding:15px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+<span style="font-size:1.2em; font-weight:bold; color:#87CEEB;">마티아스</span>
+<span style="background:#5577aa; color:#fff; font-size:0.7em; padding:2px 8px; border-radius:10px;">천문학자</span>
+</div>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 이슬람교로 개종한 유럽인 학자</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 누만의 제자</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 8px;">• 권력구도는 모르나 규율과 지식을 추종</p>
+<p style="font-size:0.75em; color:#aaa; margin:0; border-top:1px solid rgba(255,255,255,0.1); padding-top:6px;">📖 이야기: 천체, 물리학, 철학 이야기</p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- 4. 관망하는 자들 -->
+<div style="margin-bottom:50px;">
+<div style="text-align:center; margin-bottom:15px;">
+<span style="background:rgba(0,0,0,0.6); color:#aaffdd; padding:4px 16px; border-radius:20px; font-size:1em; font-weight:bold; border:1px solid #44aa88;">[ 관망하는 자들 ]</span>
+<p style="font-size:0.8em; color:#85BB65; margin:6px 0 0; font-weight:bold;"><br> "궁정의 폭풍 속에서 한 걸음 떨어져, <br>사태를 관찰하거나 비밀을 쥐고 있는 자들"</p>
+</div>
+<div style="display:flex; overflow-x:auto; padding:10px 20px 20px; gap:18px; scroll-snap-type:x mandatory;">
+<!-- 이연 -->
+<div style="flex:0 0 260px; scroll-snap-align:start; background:rgba(10,15,25,0.85); border:1px solid #338866; border-radius:12px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.5);">
+<img src="https://riru.ai/m/3OGI1r/AN/LI_1.webp" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;">
+<div style="padding:15px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+<span style="font-size:1.2em; font-weight:bold; color:#77ddaa;">이연</span>
+<span style="background:#338866; color:#fff; font-size:0.7em; padding:2px 8px; border-radius:10px;">사절</span>
+</div>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 당나라에서 온 사신</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 권력 구조에서 벗어나 있음</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 8px;">• 타락한 왕국을 경악하며 지켜보는 관찰자</p>
+<p style="font-size:0.75em; color:#aaa; margin:0; border-top:1px solid rgba(255,255,255,0.1); padding-top:6px;">📖 이야기: 당나라 문화, 실크로드 여행기</p>
+</div>
+</div>
+<!-- 라힘 -->
+<div style="flex:0 0 260px; scroll-snap-align:start; background:rgba(10,15,25,0.85); border:1px solid #338866; border-radius:12px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.5);">
+<img src="https://riru.ai/m/3OGI1r/AN/RA_1.webp" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;">
+<div style="padding:15px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+<span style="font-size:1.2em; font-weight:bold; color:#77ddaa;">라힘</span>
+<span style="background:#338866; color:#fff; font-size:0.7em; padding:2px 8px; border-radius:10px;">사키(시종)</span>
+</div>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 술탄 지근거리의 미청년 시종</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 조용히 물러나 모든 것을 지켜봄</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 8px;">• 궁정의 깊은 비밀을 쥐고 있음</p>
+<p style="font-size:0.75em; color:#aaa; margin:0; border-top:1px solid rgba(255,255,255,0.1); padding-top:6px;">📖 이야기: 궁궐의 속삭임, 누군가의 유언</p>
+</div>
+</div>
+<!-- 자간 -->
+<div style="flex:0 0 260px; scroll-snap-align:start; background:rgba(10,15,25,0.85); border:1px solid #338866; border-radius:12px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.5);">
+<img src="https://riru.ai/m/3OGI1r/AN/JA_1.webp" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;">
+<div style="padding:15px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+<span style="font-size:1.2em; font-weight:bold; color:#77ddaa;">자간</span>
+<span style="background:#338866; color:#fff; font-size:0.7em; padding:2px 8px; border-radius:10px;">맘루크(군인)</span>
+</div>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 노예 출신 친위대장, 술탄의 충견</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 냉혹하고 무뚝뚝함</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 8px;">• 최근 가슴 속에 비밀을 품게 됨</p>
+<p style="font-size:0.75em; color:#aaa; margin:0; border-top:1px solid rgba(255,255,255,0.1); padding-top:6px;">📖 이야기: 차가운 쇠와 피, 전쟁 이야기</p>
+</div>
+</div>
+<!-- 자흐라 -->
+<div style="flex:0 0 260px; scroll-snap-align:start; background:rgba(10,15,25,0.85); border:1px solid #338866; border-radius:12px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.5);">
+<img src="https://riru.ai/m/3OGI1r/AN/ZA_1.webp" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;">
+<div style="padding:15px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+<span style="font-size:1.2em; font-weight:bold; color:#77ddaa;">자흐라</span>
+<span style="background:#338866; color:#fff; font-size:0.7em; padding:2px 8px; border-radius:10px;">아라파(점술가)</span>
+</div>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 출처 불명의 의문의 주술사</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">•모든 게 베일에 싸인 의문의 여인</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 8px;">• 신비롭고 침착함</p>
+<p style="font-size:0.75em; color:#aaa; margin:0; border-top:1px solid rgba(255,255,255,0.1); padding-top:6px;">📖 이야기: 의미 모를 경고, 진위 불분명한 예언</p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- 5. 하렘 -->
+<div style="margin-bottom:20px;">
+<div style="text-align:center; margin-bottom:15px;">
+<span style="background:rgba(0,0,0,0.6); color:#ffbbaa; padding:4px 16px; border-radius:20px; font-size:1em; font-weight:bold; border:1px solid #dd6688;">[ 하렘 ]</span>
+</div>
+<div style="display:flex; overflow-x:auto; padding:10px 20px 20px; gap:18px; scroll-snap-type:x mandatory;">
+<!-- 나디아 -->
+<div style="flex:0 0 260px; scroll-snap-align:start; background:rgba(10,15,25,0.85); border:1px solid #aa3366; border-radius:12px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.5);">
+<img src="https://riru.ai/m/3OGI1r/AN/NA_1.webp" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;">
+<div style="padding:15px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+<span style="font-size:1.2em; font-weight:bold; color:#ff88aa;">나디아</span>
+<span style="background:#aa3366; color:#fff; font-size:0.7em; padding:2px 8px; border-radius:10px;">무희</span>
+</div>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 술탄에게 진상된 노예</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 쾌락, 욕망, 혼란을 추종하는 여인</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 8px;">• 참극을 즐기며 술탄을 부추김</p>
+<p style="font-size:0.75em; color:#aaa; margin:0; border-top:1px solid rgba(255,255,255,0.1); padding-top:6px;">📖 이야기: 남녀 간 정욕, 고위 귀족 스캔들</p>
+</div>
+</div>
+<!-- 라얀 -->
+<div style="flex:0 0 260px; scroll-snap-align:start; background:rgba(10,15,25,0.85); border:1px solid #aa3366; border-radius:12px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.5);">
+<img src="https://riru.ai/m/3OGI1r/AN/LA_1.webp" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;">
+<div style="padding:15px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+<span style="font-size:1.2em; font-weight:bold; color:#ff88aa;">라얀</span>
+<span style="background:#aa3366; color:#fff; font-size:0.7em; padding:2px 8px; border-radius:10px;">후궁 후보</span>
+</div>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 카심의 막내아들 (사미르의 이복동생)</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 순진무구하며 보석을 알아보는 안목이 높음</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 8px;">• 아버지를 따라 입궁함</p>
+<p style="font-size:0.75em; color:#aaa; margin:0; border-top:1px solid rgba(255,255,255,0.1); padding-top:6px;">📖 이야기: 향수, 보석, 비단 이야기</p>
+</div>
+</div>
+<!-- 미리암 -->
+<div style="flex:0 0 260px; scroll-snap-align:start; background:rgba(10,15,25,0.85); border:1px solid #aa3366; border-radius:12px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.5);">
+<img src="https://riru.ai/m/3OGI1r/AN/MI_1.webp" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;">
+<div style="padding:15px;">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+<span style="font-size:1.2em; font-weight:bold; color:#ff88aa;">미리암</span>
+<span style="background:#aa3366; color:#fff; font-size:0.7em; padding:2px 8px; border-radius:10px;">후궁</span>
+</div>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 타리크의 누이</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 4px;">• 조용히 물러나 있으나 실은 비상한 머리를 지님</p>
+<p style="font-size:0.8em; line-height:1.5; color:#ccc; margin:0 0 8px;">• 오빠에 대한 사랑과 증오를 동시에 품음</p>
+<p style="font-size:0.75em; color:#aaa; margin:0; border-top:1px solid rgba(255,255,255,0.1); padding-top:6px;">📖 이야기: 사막 민간설화, 동화</p>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- [4. GAME SYSTEM SECTION (BRIGHT BACKGROUND)] -->
+<div style="padding:60px 25px; color:#111; background:#f7f3e3; border-top:2px solid #d4af37;">
+<h2 style="text-align:center; color:#3a2d10; font-size:2em; margin-top:0; margin-bottom:35px; letter-spacing:2px;">게임 시스템</h2>
+
+<div style="display:flex; flex-direction:column; gap:16px;">
+
+<div style="background:#fff; padding:20px; border-radius:10px; border-left:5px solid #d4af37; box-shadow:0 4px 12px rgba(0,0,0,0.06);">
+<h4 style="margin:0 0 8px; color:#8a6d0b; font-size:1.1em;">🌅 시간의 흐름</h4>
+<p style="margin:0; font-size:0.9em; line-height:1.6; color:#444;">아침/낮/저녁/밤에 따라 궁정 내 사건이 달라집니다.<br>
+• <b>아침:</b> 재상의 회의, 맘루크의 훈련 등 일과 진행<br>
+• <b>낮:</b> 지난 밤 이야기판에 대한 가십 확산<br>
+• <b>저녁:</b> 술탄이 깨어남에 대비<br>
+• <b>밤:</b> 술탄의 '이야기판' 개막</p>
+</div>
+
+<div style="background:#fff; padding:20px; border-radius:10px; border-left:5px solid #336699; box-shadow:0 4px 12px rgba(0,0,0,0.06);">
+<h4 style="margin:0 0 8px; color:#224466; font-size:1.1em;">⚡ 돌발 이벤트</h4>
+<p style="margin:0; font-size:0.9em; line-height:1.6; color:#444;">특정 날짜와 상황에 궁정 사건이 발생합니다. 무시할 수도 있지만, 직접 개입하면 더욱 깊이 있는 서사를 만들어갈 수 있습니다.</p>
+</div>
+
+<div style="background:#fff; padding:20px; border-radius:10px; border-left:5px solid #2e7d32; box-shadow:0 4px 12px rgba(0,0,0,0.06);">
+<h4 style="margin:0 0 8px; color:#1b5e20; font-size:1.1em;">👁️ NPC 독자성</h4>
+<p style="margin:0; font-size:0.9em; line-height:1.6; color:#444;">{{user}}가 없는 장소에서도 NPC들은 자체적으로 밀담, 음모, 회의를 진행합니다. 술탄의 폭정이 심해지면 살기 위해 무엇이든 할 것입니다.</p>
+</div>
+
+<div style="background:#fff; padding:20px; border-radius:10px; border-left:5px solid #c62828; box-shadow:0 4px 12px rgba(0,0,0,0.06);">
+<h4 style="margin:0 0 8px; color:#b71c1c; font-size:1.1em;">🔥 Chaos (혼란도)</h4>
+<p style="margin:0; font-size:0.9em; line-height:1.6; color:#444;">궁정과 나라의 혼란 상태를 나타냅니다. 피와 모욕, 처형이 누적되면 증가하고, 술탄이 만족하여 선정을 펼치면 감소합니다.<br>
+<b style="color:#c62828;">* Chaos가 +100 또는 -100에 도달하면 엔딩 분기에 진입합니다.</b></p>
+</div>
+
+</div>
+</div>
+
+<!-- [5. COMPONENT PREVIEW (StorytellerObservatory)] -->
+<div style="padding:50px 25px; background:#efe9d2; color:#222; text-align:center; border-top:1px solid #ddc888;">
+<h3 style="margin:0 0 10px; color:#3a2d10; font-size:1.4em;">Interactive Observatory Preview</h3>
+<p style="margin:0 0 25px; font-size:0.85em; color:#665533;">별과 달을 클릭하여 궁정의 혼란도 및 각 NPC별 감정 상태를 미리 확인해 보세요.</p>
+
+<div style="background:#020b18; padding:25px; border-radius:15px; color:#fff; border:1px solid #d4af37; box-shadow:0 8px 25px rgba(0,0,0,0.15); text-align:left;">
+<div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(212,175,55,0.3); padding-bottom:12px; margin-bottom:15px;">
+<span style="color:#d4af37; font-weight:bold; font-size:0.95em;">🌙 Storyteller Observatory</span>
+<span style="background:#c62828; font-size:0.7em; padding:2px 8px; border-radius:10px; color:#fff;">Chaos: +45</span>
+</div>
+<div style="font-size:0.8em; color:#aaa; line-height:1.8;">
+✦ 살라-딘 (Sultan): 광기 (높음) | 무료함 (극심)<br>
+✦ 야히야 (Wizara): 피로도 90% | 술탄 경계 중<br>
+✦ 자간 (Mamluk): 충성심 균열 감지됨
+</div>
+</div>
+</div>
+
+<!-- [6. RECOMMENDED RP & MODEL] -->
+<div style="padding:60px 25px 80px; background:#fff; color:#222;">
+<h2 style="text-align:center; color:#3a2d10; font-size:1.8em; margin-top:0; margin-bottom:30px;">추천 롤플레이</h2>
+
+<div style="display:grid; grid-template-columns:1fr 1fr; gap:15px; margin-bottom:30px;">
+
+<div style="background:#fdfaf0; padding:18px; border-radius:10px; border:1px solid #e0cb88;">
+<h4 style="margin:0 0 10px; color:#8a6d0b; font-size:1em;">[ 술탄 플레이 ]</h4>
+<ul style="margin:0; padding-left:16px; font-size:0.8em; line-height:1.8; color:#444;">
+<li>이야기꾼들로 인형놀이</li>
+<li>성군 되어 주변 사람 놀래키기</li>
+<li>망해가는 제국 바로잡기</li>
+<li>암살 시도 속에서 살아남기</li>
+</ul>
+</div>
+
+<div style="background:#f0f7ff; padding:18px; border-radius:10px; border:1px solid #aaccff;">
+<h4 style="margin:0 0 10px; color:#225588; font-size:1em;">[ 이야기꾼 플레이 ]</h4>
+<ul style="margin:0; padding-left:16px; font-size:0.8em; line-height:1.8; color:#444;">
+<li>쿠데타를 일으켜 스스로 술탄 되기</li>
+<li>폭군을 개과천선시키는 충신 되기</li>
+<li>술탄을 부추겨 제국 완전히 망가뜨리기</li>
+<li>NPC와 사랑에 빠져 함께 도망치기</li>
+</ul>
+</div>
+
+</div>
+
+<div style="background:#f5f5f5; padding:15px; border-radius:10px; font-size:0.8em; color:#555; line-height:1.6; margin-bottom:30px;">
+💡 <b>다양한 페르소나 추천:</b> 재상, 상인, 귀족, 공주, 술탄의 이복동생, 쫓겨난 사생아, 자객, 용병, 하인, 사절 등 자유롭게 선택해 보세요!
+</div>
+
+<div style="background:#222; color:#fff; padding:15px; border-radius:8px; font-size:0.85em; text-align:center; margin-bottom:40px;">
+<span style="color:#d4af37; font-weight:bold;">[중요!] 유저노트 설정</span><br> 술탄으로 플레이시 
+<code style="color:#87CEEB;">PC=Sultan</code><br><br>이야기꾼으로 플레이시 <code style="color:#87CEEB;">PC=Storyteller</code> <br> <br>를 유저노트에 입력해 주세요.
+</div>
+
+<div style="text-align:center;">
+<p style="font-size:0.85em; color:#888; margin-bottom:8px;">추천 모델</p>
+<div style="display:inline-block; padding:8px 30px; border:1px dashed #ccc; border-radius:20px; color:#aaa; font-size:0.85em;">
+(모델 설정이 비어있습니다)
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
